@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    
+  } 
+  .wrapper {
+    
+    display: flex;
+    min-height: 100vh;
+    margin: 0 auto;
+  } 
+  .sidebar {
+    flex-shrink: 0;
+    width: 200px;
+    height: 100vh;
+    overflow: auto;
+    position: sticky;
+    top: 0; 
+
+    padding: 16px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 16px;
+
+  }
+  .nav li {
+    line-height: 1.5;
+  }
+  
